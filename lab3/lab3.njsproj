@@ -32,10 +32,22 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="routes\index.js" />
+    <Compile Include="routes\mom.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="routes\pop.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="routes\sibling.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="routes\users.js" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
+    <Content Include="views\sibling.pug" />
+    <Content Include="views\pop.pug" />
+    <Content Include="views\mom.pug" />
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
